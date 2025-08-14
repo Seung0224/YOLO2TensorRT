@@ -1,4 +1,4 @@
-# OS 프로젝트(OBD) — Ultralytics YOLOv11 → TensorRT 고속 추론 툴
+# Ultralytics YOLOv11 → TensorRT 고속 추론 툴
 
 Windows 환경에서 **Ultralytics YOLO (YOLOv11)** 모델을 **TensorRT 엔진으로 변환**하고 **고속 추론·결과 저장**까지 수행하는 Python 기반 툴입니다.
 

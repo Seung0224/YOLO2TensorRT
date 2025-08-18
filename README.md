@@ -75,7 +75,7 @@ pip uninstall -y torch torchvision torchaudio
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
 # TensorRT + ONNX 관련 (엔진 변환/검증에 필요)
-pip install --extra-index-url https://pypi.nvidia.com tensorrt==10.8.0
+pip install --extra-index-url https://pypi.nvidia.com tensorrt==10.8.0.43
 pip install onnx onnxruntime-gpu polygraphy
 ```
 

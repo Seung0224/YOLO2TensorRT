@@ -90,7 +90,7 @@ python -c "import torch; print('cuda:', torch.cuda.is_available()); print(torch.
 ```powershell
 python -c "from ultralytics import YOLO; \
 m=YOLO(r'D:\TOYPROJECT\OS\Model\OBD.pt'); \
-print(m.export(format='engine', device=0, half=True, simplify=True, imgsz=640))"
+print(m.export(format='engine', device=0, half=True, simplify=True, imgsz=320))"
 ```
 
 **주요 옵션**
@@ -106,7 +106,7 @@ print(m.export(format='engine', device=0, half=True, simplify=True, imgsz=640))"
 python -c "from ultralytics import YOLO; \
 m=YOLO(r'D:\TOYPROJECT\OS\Model\OBD.engine'); \
 m.predict(r'C:\Users\제이스텍\Desktop\영상테스트\ORG\20250721133834\20250721133834_CAM1_TAB2_OK.bmp', \
-device='cuda', half=True, imgsz=640, save=True, verbose=True)"
+device='cuda', half=True, imgsz=320, save=True, verbose=True)"
 ```
 
 * 실행 후 **결과 이미지**가 자동으로 저장됩니다(기본 `runs/predict` 하위).
